@@ -9,9 +9,4 @@ describe('<App />', () => {
     const wrapper = shallow(<App store={store} />);
     expect(wrapper.find('div')).to.have.length(1);
   });
-
-  it('should have an initial state', () => {
-    const wrapper = mount(<App store={store} />);
-    expect(wrapper.state().zen.count).to.equal(0);
-  })
 });
