@@ -6,6 +6,7 @@ export const Favs = (props) =>  {
 };
 
 Favs.propTypes = {
+    
 };
 
 export default Favs;

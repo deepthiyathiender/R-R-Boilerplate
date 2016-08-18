@@ -22,7 +22,7 @@ export class App extends Component {
   render() {
     return (
         <div className={styles.container}>
-
+          <p>Boilerplate works!</p>
         </div>
     );
   }
@@ -34,7 +34,9 @@ export class App extends Component {
 }
 
 function mapStateToProperties(state) {
+  return {
 
+  };
 }
 
 export default connect(mapStateToProperties)(App);
